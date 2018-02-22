@@ -5,68 +5,19 @@ input::-ms-clear,input::-ms-reveal{display:none;}
 /*common css end*/
 
 /*header start*/
-.header{
-	margin-top: -10px;
-	width:100%;
-	height: 50px;
-	background-color: #BFAB86;
-	text-align: center;
-	line-height: 50px;
-}
-.header .sky_header_nav{
-	list-style: none;
-}
-.header .sky_header_nav li:not(:first-child){
-	float: left;
-	width: 100px;
-	height: 50px;
-	cursor: pointer;
-}
-.active{
-	background-color: #eee;
-	border-bottom: solid 4px #004085;
-}
-.header .sky_header_nav li.search .search_input{
-	transition: all 1s ease;/*控制边框 平滑的延长收缩*/
-	height: 30px;
-    width: 100px;
-    background-color: inherit;
-    border: 1px solid;
-    border-radius: 15px;
-    text-indent: 10px;
-    margin-left: 200px;
-    color: #fff;
-}
-.enter{
-	transition: all 1s ease; /*控制边框 平滑的延长收缩*/
-	background-color: #fff;
-	height: 30px;
-	width: 150px;
-	color: #000;
-    border: 1px solid;
-    border-radius: 15px;
-    text-indent: 10px;
-    margin-left: 200px;
-}
-.logo{
-	float: left;
-	width: 150px;
-	height: 50px;
-	font-size: 24px;
-	text-indent: 20px;
-}
+.header{ margin-top: -10px; width:100%; height: 50px; background-color: #BFAB86; text-align: center; line-height: 50px; }
+.header .sky_header_nav{ list-style: none; } 
+.header .sky_header_nav li:not(:first-child){ float: left; width: 100px; height: 50px; cursor: pointer; }
+.active{ background-color: #eee; color: #aaa; border:1px solid #eee; border-top: solid 4px #004085; font-size: 16px; }
+.header .sky_header_nav li.search .search_input{ transition: all 1s ease;/*控制边框 平滑的延长收缩*/ height: 30px; width: 100px; background-color: inherit; border: 1px solid; border-radius: 15px; text-indent: 10px; margin-left: 200px; color: #fff; }
+.enter{ transition: all 1s ease; /*控制边框 平滑的延长收缩*/ background-color: #fff; height: 30px; width: 150px; color: #000; border: 1px solid; border-radius: 15px; text-indent: 10px; margin-left: 200px; }
+.logo{ float: left; width: 150px; height: 50px; font-size: 24px; text-indent: 20px; }
 /*header end*/
 
 /*left_menu start*/
-.left_menu{
-	width: 200px;
-	height: 100%;
-	position: fixed;
-	top: 50px;
-	left: 0px;
-	background-color: blue;
-	text-align: center;
-}
+.left_menu{ width: 200px; height: 100%; position: fixed; top: 50px; left: 0px; background-color: #eee; text-align: center; }
+.left_menu .left_menu_change dl{margin-bottom: 0px;border-bottom: solid 2px #eee;cursor: pointer;}
+.left_menu .left_menu_change dl dt{background-color: #999;height: 100%;line-height: 50px;}
 /*left_menu end*/
 
 /*right_content start*/
