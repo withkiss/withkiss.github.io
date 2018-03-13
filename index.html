@@ -1,85 +1,61 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title> myBlog </title>
-	<link rel="icon" href="./image/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-</head>
-<body>
-	<div class="header">
-		<ul class="sky_header_nav">
-			<li class="logo">我的博客</li>
-			<li class="active" style="margin-left: 100px;">我的主页</li>
-			<li>个人中心</li>
-			<li>技术分享</li>
-			<li>心性随笔</li>
-			<li>每秒文章</li>
-			<li>bug积累</li>
-			<li>技术断点</li>
-			<li class="search">
-				<input class="search_input" type="text" placeholder="搜索..." id="search"/>
-			</li>
-		</ul>
-	</div>
-	<div class="left_menu" style="display: none;">
-		<div id="left_menu_1" class="left_menu_change">
-			<dl>
-				<dt>我的主页1</dt>
-				<dd>
-					<ul>
-						<li><a href="#">主页1</a></li>
-						<li><a href="#">主页1</a></li>
-						<li><a href="#">主页1</a></li>
-						<li><a href="#">主页1</a></li>
-						<li><a href="#">主页1</a></li>
-						<li><a href="#">主页1</a></li>
-					</ul>	
-				</dd>
-			</dl>
-		</div>
-		<div id="left_menu_2" class="left_menu_change">
-			<dl>
-				<dt>我的主页2</dt>
-				<dd>
-					<ul>
-						<li><a href="#">主页2</a></li>
-						<li><a href="#">主页2</a></li>
-						<li><a href="#">主页2</a></li>
-						<li><a href="#">主页2</a></li>
-						<li><a href="#">主页2</a></li>
-						<li><a href="#">主页2</a></li>
-					</ul>	
-				</dd>
-			</dl>
-		</div>
-		<div id="left_menu_3" class="left_menu_change">
-			<dl>
-				<dt>我的主页3</dt>
-				<dd>
-					<ul>
-						<li><a href="#">主页3</a></li>
-						<li><a href="#">主页3</a></li>
-						<li><a href="#">主页3</a></li>
-						<li><a href="#">主页3</a></li>
-						<li><a href="#">主页3</a></li>
-						<li><a href="#">主页3</a></li>
-					</ul>	
-				</dd>
-			</dl>
-		</div>
-	</div>
-	<div class="right_content">
-		<div class="rightcontent">
-            <iframe id="main" name="main" frameborder="0" scrolling="yes" src="main.html"></iframe>
-        </div>
-	</div>
-	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-</body>
-</html>
+    <!DOCTYPE>  
+    <html>  
+    <head>  
+    <meta charSet="utf-8" />  
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <style type="text/css">  
+    .container{  
+      display:flex;  
+      display:-webkit-flex;  
+      border: 2px solid black;  
+      padding: 20px;  
+      margin: 20px;  
+    }  
+    .item{  
+      background: green;  
+      width: 100px;  
+      height: 100px;  
+      margin: 10px;  
+      font-weight: bold;  
+    }  
+    .row{  
+      flex-direction: row;  
+    }  
+    .row-reverse{  
+      flex-direction: row-reverse;  
+    }  
+    .column{  
+      flex-direction: column;  
+    }  
+    .column-reverse{  
+      flex-direction: column-reverse;  
+    }  
+    </style>  
+    </head>  
+    <body>  
+    <div class="container row">  
+      <div class="item">1</div>  
+      <div class="item">2</div>  
+      <div class="item">3</div>  
+      <div class="item">4</div>  
+    </div>  
+    <div class="container row-reverse">  
+      <div class="item">1</div>  
+      <div class="item">2</div>  
+      <div class="item">3</div>  
+      <div class="item">4</div>  
+    </div>  
+    <div class="container column">  
+      <div class="item">1</div>  
+      <div class="item">2</div>  
+      <div class="item">3</div>  
+      <div class="item">4</div>  
+    </div>  
+    <div class="container column-reverse">  
+      <div class="item">1</div>  
+      <div class="item">2</div>  
+      <div class="item">3</div>  
+      <div class="item">4</div>  
+    </div>  
+    </body>  
+    </html>  
